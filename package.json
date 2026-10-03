@@ -1,0 +1,13 @@
+{
+  "name": "template-hedera-pyth-price-guard",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=20.18.3" },
+  "workspaces": ["packages/hardhat", "packages/nextjs"],
+  "scripts": {
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspace @price-guard/hardhat",
+    "build": "npm run build --workspaces --if-present"
+  }
+}
