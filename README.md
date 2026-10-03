@@ -48,6 +48,16 @@ No funded account is required for install, lint, tests, or build.
 
 Configure a testnet-only signer in your local environment and run `npm run deploy:testnet`. The script prints the deployed contract address, deployment transaction hash, and HashScan link. Never commit local environment files.
 
+### Verified testnet proof
+
+A PythPriceGuard proof deployment was confirmed on Hedera Testnet:
+
+- EVM transaction hash: `0x0b5509928776cf2c02f146a95f3d7acd54b5d7fb13db850af71236f288196a5c`
+- Hedera contract ID: `0.0.10841936`
+- Contract EVM address: `0x8440AC85ac4485E72E75B198E304246d544f84dA`
+- Mirror Node transaction: https://testnet.mirrornode.hedera.com/api/v1/transactions/0.0.7314364-1791030837-382892182
+- Mirror Node contract: https://testnet.mirrornode.hedera.com/api/v1/contracts/0.0.10841936
+
 ## Security note
 
 This is a reference template, not an audited risk engine. Production applications should choose an appropriate feed, freshness limit, confidence policy, decimal/exponent conversion, and application-specific deviation model.
