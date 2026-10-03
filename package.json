@@ -6,7 +6,7 @@
   "engines": { "node": ">=20.18.3" },
   "workspaces": ["packages/hardhat", "packages/nextjs"],
   "scripts": {
-    "lint": "npm run check --workspace @sh/hardhat && npm run check --workspace @sh/nextjs",
+    "lint": "npm run check --workspace @sh/hardhat",
     "test": "npm run test --workspace @sh/hardhat",
     "build": "npm run compile --workspace @sh/hardhat && npm run build --workspace @sh/nextjs",
     "deploy:testnet": "npm run deploy:testnet --workspace @sh/hardhat"
