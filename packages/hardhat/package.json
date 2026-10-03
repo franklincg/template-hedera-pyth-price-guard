@@ -1,0 +1,24 @@
+{
+  "name": "@sh/hardhat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network hederaTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "2.0.8",
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "@pythnetwork/pyth-sdk-solidity": "4.3.1",
+    "@types/chai": "4.3.20",
+    "@types/mocha": "10.0.10",
+    "@types/node": "22.10.2",
+    "chai": "4.5.0",
+    "ethers": "6.14.0",
+    "hardhat": "2.22.19",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.2"
+  }
+}
