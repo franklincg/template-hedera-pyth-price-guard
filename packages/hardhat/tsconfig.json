@@ -8,5 +8,5 @@
     "skipLibCheck": true,
     "types": ["node", "mocha"]
   },
-  "include": ["hardhat.config.ts", "test/PythPriceGuard.test.ts"]
+  "include": ["hardhat.config.ts", "scripts/**/*.ts", "test/**/*.ts"]
 }
