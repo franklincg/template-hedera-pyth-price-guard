@@ -1,0 +1,17 @@
+{
+  "name": "template-hedera-pyth-price-guard",
+  "description": "Pyth-powered price circuit breaker template for Hedera dApps",
+  "version": "0.1.0",
+  "create-scaffold-hbar": {
+    "capabilities": {
+      "frontend": ["nextjs-app"],
+      "solidityFramework": ["hardhat"],
+      "packageManager": ["npm"]
+    },
+    "defaults": {
+      "frontend": "nextjs-app",
+      "solidityFramework": "hardhat",
+      "packageManager": "npm"
+    }
+  }
+}
