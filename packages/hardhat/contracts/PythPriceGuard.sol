@@ -3,6 +3,7 @@ pragma solidity ^0.8.28;
 
 import {IPyth} from "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
 import {PythStructs} from "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "@pythnetwork/pyth-sdk-solidity/MockPyth.sol";
 
 /// @title PythPriceGuard
 /// @notice Reusable circuit breaker for Hedera dApps that need fresh Pyth prices.
